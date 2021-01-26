@@ -154,9 +154,16 @@ public class Cliente implements Serializable {
         return true;
     }
 
+
     @Override
     public String toString() {
-        return "com.bancapp.entity.Cliente[ cedula=" + cedula + " ]";
+        return "Cliente{" +
+                "cedula=" + cedula +
+                ", apellido='" + apellido + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", ciudadCodigo=" + ciudadCodigo +
+                '}';
     }
-    
 }
